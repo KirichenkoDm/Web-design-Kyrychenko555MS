@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Payment System</title>
+    <!--<link href="style.css" rel="stylesheet">-->
+    <script></script>
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <label for="sum">Реквізити переказу (iban)</label>
+        <!--valid iban UA456543212128659405864935865-->
+        <input id="requisites" type="text" pattern="\bUA\s?\d{2}\s?\d{6}\s?\d{19}\b"
+        placeholder = "UA000000000000000000000000000" required autofocus>
+        <label for="sum">Сума переказу</label>
+        <input id="sum" type="number" min="1" max="5000" value="0"
+        placeholder = "Введіть суму" required>
+        <select id="currency" name="currency">
+          <option value="hryvnia">₴</option>
+          <option value="dollar">$</option>
+          <option value="pound">£</option>          
+          <option value="euro">€</option>
+        </select>
+        <input id="submit" type="submit">
+        <label for="submit">Зауважте, що сервіс утримує комісію в 5%</label>
+      </form>
+    </main>
+  </body>
+</html>
