@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  justify-content: center;
+  display: flex;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+img {
+  margin: 10px;
+  width: 30%;
+  height: auto;
+}
+
+select {
+  width: 15%;
+}
+
+#sum {
+  width: 50%;
+}
+
+#sum-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width:720px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:721px) and (max-width:1980px) {
+  main {
+    flex-direction: row;
+  }
+}
