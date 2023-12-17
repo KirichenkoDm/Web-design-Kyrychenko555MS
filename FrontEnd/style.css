@@ -1,47 +1,149 @@
 @charset "UTF-8";
 
-form {
-  margin: 10px;
+.Container {
+  padding: 15px;
   display: flex;
   flex-direction: column;
-}
-main {
   justify-content: center;
+  box-sizing: border-box;
+  width: 360px;
+  gap: 3px;
+
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+.Container2 {
+  width: 360px;
   display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+label {
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(131, 212, 200);
+}
+
+main {  
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
+  gap: 40px;
 }
 
 input {
-  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 10px;
+  border: 0;
+  border-bottom: 7px solid none;
+  border-radius: 15px;
+  background-color: #83a2fe;
+  transition: all 0.3s linear;
+  margin-bottom: 20px;
 }
 
-img {
-  margin: 10px;
-  width: 30%;
-  height: auto;
+input:-webkit-autofill,
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0px 1000px #83a2fe inset;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #c0cffa inset;
+}
+
+input:focus {
+  outline: none;
+  background-color: #c0cffa;
+}
+
+input:valid {
+  border-bottom: 6px solid #18c767;
+}
+
+input:invalid {
+  background-color: #f47272;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
+
+#submit {
+  background-color: #6A78A0;
+  font-weight: bolder;
+  color: rgb(255, 252, 247);
+  border: 0;
 }
 
 select {
-  width: 15%;
+  height: 40.8px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 15px;
+  background-color: #83a2fe;
+  transition: all 0.5s ease-in-out;
+}
+
+select:focus {
+  outline: none;
+  background-color: #c0cffa;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
 }
 
 #sum {
-  width: 50%;
+  flex: 1;
 }
 
 #sum-block {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width:720px) {
   main {
     flex-direction: column;
   }
+  img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    height: auto;
+  }
+  .Container {
+    width: 100%;
+  }
+  .Container2 {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width:721px) and (max-width:1980px) {
   main {
+    margin-top: 12%;
     flex-direction: row;
   }
 }
