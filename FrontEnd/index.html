@@ -5,32 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Payment System</title>
     <link href="style.css" rel="stylesheet">
-    <script></script>
   </head>
 
   <body>
     <main>
-      <form>
-        <label for="sum">Реквізити переказу (iban)</label>
-        <!--valid iban UA456543212128659405864935865-->
+      <form id="form" class="Container">
+        <label for="requisites">Реквізити переказу (iban)</label>
+        <!--valid iban UA456543212128659405864935865 or UA 45 000000 2128659405864935865-->
         <input id="requisites" type="text" pattern="\bUA\s?\d{2}\s?\d{6}\s?\d{19}\b"
-        placeholder = "UA000000000000000000000000000" required autofocus>
-        <label for="sum">Сума переказу</label>
+        list="requisitesList" placeholder = "UA 00 000000 0000000000000000000" required/>
+        <datalist id="requisitesList"></datalist>
         <div id="sum-block">
-          <input id="sum" type="number" min="1" max="5000" value="0"
+          <label for="sum">Сума переказу</label>
+          <input onClick="this.select();" id="sum" type="number" min="1" max="5000" value="0"
           placeholder = "Введіть суму" required>
           <select id="currency" name="currency">
-            <option value="hryvnia">₴</option>
-            <option value="dollar">$</option>
-            <option value="pound">£</option>          
-            <option value="euro">€</option>
+            <option value="hryvnia">UAH ₴</option>
+            <option value="dollar">USD $</option>
+            <option value="pound">GBP £</option>          
+            <option value="euro">EUR €</option>
           </select>
         </div>
         
         <input id="submit" type="submit">
         <label for="submit">Зауважте, що сервіс утримує комісію в 5%</label>
       </form>
-      <img src="Placeholder.png">
+      <div class="Container2">
+        <label for="recipient">Отримувач:</p>
+        <p id = "recipient">Відсутній</p>
+        <label for="resultSum">Буде Перераховано:</p>
+        <p id = "resultSum">-</p>
+        <label for="commission">Комісія(5%):</p>
+        <p id = "commission">-</p>
+      </div>      
     </main>
+
+    <script type="module" src="script.js"></script>
+
   </body>
 </html>
