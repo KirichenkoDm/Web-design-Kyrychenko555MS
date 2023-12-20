@@ -3,6 +3,7 @@ import { getFromStorage, addToStorage } from './Functions/localStorageConnection
 import { focusOutRequisites } from './Functions/EventListeners/requisitesInput.js';
 import { focusoutSum } from './Functions/EventListeners/sumInput.js';
 import { getCurrencyApi } from './Functions/apiConnect.js';
+import { loadCurrenciesToList } from './Functions/loadCurrenciesToUi.js';
 let requisitesElem = document.getElementById("requisites");
 let sumElem = document.getElementById("sum");
 let currElem = document.getElementById("currency");
@@ -18,8 +19,12 @@ formElem.addEventListener("submit", (e) => {
 
 // localStorage.clear();
 getFromStorage();
-getCurrencyApi().send();
 
+//Connect to api
+let apiConnect = getCurrencyApi();
+if(apiConnect){apiConnect.send()}
 
+//load currencies to interface
+loadCurrenciesToList();
 
 

@@ -6,8 +6,8 @@ let resultSumElem = document.getElementById("resultSum")
 let commissionElem = document.getElementById("commission")
 
 export const resultSumUpdate = () => {
-  let currency = currElem.options[currElem.selectedIndex].value;
-  let resultSum = sumElem.value * data.currency_to_uah_coofittient[currency]
+  let index = data.findIndex((currency) => currency.symbol == currElem.options[currElem.selectedIndex].value);
+  let resultSum = sumElem.value * data[index].rate;
   resultSumElem.innerHTML = (resultSum * 0.95).toFixed(2) + " UAH";
   commissionElem.innerHTML = (resultSum * 0.05).toFixed(2) + " UAH";
 }

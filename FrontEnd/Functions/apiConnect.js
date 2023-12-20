@@ -1,4 +1,3 @@
-//import fs from 'fs'
 import { sortCurrency } from "./currencySorting.js";
 const url = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json";
 //put the only currency data we need from server to local file
@@ -21,9 +20,10 @@ function currencyHandling(currencyArray) {
   neededData = sortCurrency(neededData);
   //save to file
   let jsonData = JSON.stringify(neededData, null, 2);
-  writeFile("../Currency_to_UAH.json", jsonData, function writeJSON(err) {
-    if (err) return console.log(err);
-    console.log("writing to ../Currency_to_UAH.json");
+  fetch("/file", {
+    method: "POST",
+    headers: { 'Content-Type': 'application/json' },
+    body: jsonData
   });
 }
 
@@ -35,8 +35,13 @@ export const getCurrencyApi = () => {
     if (this.readyState == 4 && this.status == 200) {
       let currencyArray = JSON.parse(this.responseText);
       currencyHandling(currencyArray);
-    }
-  }
+    } else if (this.status == 404) {
+      alert("Немає зв'язку з сервером, дані будуть взяті з локального файлу");
+  }}
+
   request.open("GET", url, true);
-  return request;
+  if(request) {
+    return request;
+  }
+  else return null;
 }

@@ -1,9 +1,312 @@
-{
-  "currency_to_uah_coofittient": {
-    "hryvnia": 1,
-    "dollar": 37.19,
-    "pound": 47.22,
-    "euro": 40.62,
-    "currency_to_uah_coofittient": ""
+[
+  {
+    "symbol": "UAH",
+    "currencyName": "Українська гривня",
+    "rate": 1
+  },
+  {
+    "symbol": "USD",
+    "currencyName": "Долар США",
+    "rate": 37.5516
+  },
+  {
+    "symbol": "GBP",
+    "currencyName": "Фунт стерлінгів",
+    "rate": 47.454
+  },
+  {
+    "symbol": "EUR",
+    "currencyName": "Євро",
+    "rate": 41.0664
+  },
+  {
+    "symbol": "MXN",
+    "currencyName": "Мексиканське песо",
+    "rate": 2.199
+  },
+  {
+    "symbol": "ILS",
+    "currencyName": "Новий ізраїльський шекель",
+    "rate": 10.2864
+  },
+  {
+    "symbol": "CNY",
+    "currencyName": "Юань Женьміньбі",
+    "rate": 5.2607
+  },
+  {
+    "symbol": "TRY",
+    "currencyName": "Турецька ліра",
+    "rate": 1.289
+  },
+  {
+    "symbol": "CZK",
+    "currencyName": "Чеська крона",
+    "rate": 1.6735
+  },
+  {
+    "symbol": "AUD",
+    "currencyName": "Австралійський долар",
+    "rate": 25.3849
+  },
+  {
+    "symbol": "CAD",
+    "currencyName": "Канадський долар",
+    "rate": 28.1349
+  },
+  {
+    "symbol": "DKK",
+    "currencyName": "Данська крона",
+    "rate": 5.5073
+  },
+  {
+    "symbol": "HKD",
+    "currencyName": "Гонконгівський долар",
+    "rate": 4.8101
+  },
+  {
+    "symbol": "HUF",
+    "currencyName": "Форинт",
+    "rate": 0.106526
+  },
+  {
+    "symbol": "INR",
+    "currencyName": "Індійська рупія",
+    "rate": 0.45147
+  },
+  {
+    "symbol": "IDR",
+    "currencyName": "Рупія",
+    "rate": 0.0024196
+  },
+  {
+    "symbol": "JPY",
+    "currencyName": "Єна",
+    "rate": 0.26158
+  },
+  {
+    "symbol": "KZT",
+    "currencyName": "Теньге",
+    "rate": 0.082415
+  },
+  {
+    "symbol": "KRW",
+    "currencyName": "Вона",
+    "rate": 0.0289
+  },
+  {
+    "symbol": "MDL",
+    "currencyName": "Молдовський лей",
+    "rate": 2.1418
+  },
+  {
+    "symbol": "NZD",
+    "currencyName": "Новозеландський долар",
+    "rate": 23.5937
+  },
+  {
+    "symbol": "NOK",
+    "currencyName": "Норвезька крона",
+    "rate": 3.6421
+  },
+  {
+    "symbol": "RUB",
+    "currencyName": "Російський рубль",
+    "rate": 0.41281
+  },
+  {
+    "symbol": "SGD",
+    "currencyName": "Сінгапурський долар",
+    "rate": 28.2173
+  },
+  {
+    "symbol": "ZAR",
+    "currencyName": "Ренд",
+    "rate": 2.0445
+  },
+  {
+    "symbol": "SEK",
+    "currencyName": "Шведська крона",
+    "rate": 3.6914
+  },
+  {
+    "symbol": "CHF",
+    "currencyName": "Швейцарський франк",
+    "rate": 43.4148
+  },
+  {
+    "symbol": "EGP",
+    "currencyName": "Єгипетський фунт",
+    "rate": 1.2153
+  },
+  {
+    "symbol": "BYN",
+    "currencyName": "Білоруський рубль",
+    "rate": 13.6492
+  },
+  {
+    "symbol": "AZN",
+    "currencyName": "Азербайджанський манат",
+    "rate": 22.1022
+  },
+  {
+    "symbol": "RON",
+    "currencyName": "Румунський лей",
+    "rate": 8.2636
+  },
+  {
+    "symbol": "XDR",
+    "currencyName": "СПЗ (спеціальні права запозичення)",
+    "rate": 50.1994
+  },
+  {
+    "symbol": "BGN",
+    "currencyName": "Болгарський лев",
+    "rate": 21.0008
+  },
+  {
+    "symbol": "PLN",
+    "currencyName": "Злотий",
+    "rate": 9.4546
+  },
+  {
+    "symbol": "DZD",
+    "currencyName": "Алжирський динар",
+    "rate": 0.27072
+  },
+  {
+    "symbol": "BDT",
+    "currencyName": "Така",
+    "rate": 0.32899
+  },
+  {
+    "symbol": "AMD",
+    "currencyName": "Вірменський драм",
+    "rate": 0.090286
+  },
+  {
+    "symbol": "DOP",
+    "currencyName": "Домініканське песо",
+    "rate": 0.64008
+  },
+  {
+    "symbol": "IRR",
+    "currencyName": "Іранський ріал",
+    "rate": 0.00086556
+  },
+  {
+    "symbol": "IQD",
+    "currencyName": "Іракський динар",
+    "rate": 0.027751
+  },
+  {
+    "symbol": "KGS",
+    "currencyName": "Сом",
+    "rate": 0.40771
+  },
+  {
+    "symbol": "LBP",
+    "currencyName": "Ліванський фунт",
+    "rate": 0.002424
+  },
+  {
+    "symbol": "LYD",
+    "currencyName": "Лівійський динар",
+    "rate": 7.5741
+  },
+  {
+    "symbol": "MYR",
+    "currencyName": "Малайзійський ринггіт",
+    "rate": 7.798
+  },
+  {
+    "symbol": "MAD",
+    "currencyName": "Марокканський дирхам",
+    "rate": 3.6122
+  },
+  {
+    "symbol": "PKR",
+    "currencyName": "Пакистанська рупія",
+    "rate": 0.1275
+  },
+  {
+    "symbol": "SAR",
+    "currencyName": "Саудівський ріял",
+    "rate": 9.6904
+  },
+  {
+    "symbol": "VND",
+    "currencyName": "Донг",
+    "rate": 0.0014984
+  },
+  {
+    "symbol": "THB",
+    "currencyName": "Бат",
+    "rate": 1.0321
+  },
+  {
+    "symbol": "AED",
+    "currencyName": "Дирхам ОАЕ",
+    "rate": 9.8994
+  },
+  {
+    "symbol": "TND",
+    "currencyName": "Туніський динар",
+    "rate": 11.7077
+  },
+  {
+    "symbol": "UZS",
+    "currencyName": "Узбецький сум",
+    "rate": 0.0029561
+  },
+  {
+    "symbol": "TWD",
+    "currencyName": "Новий тайванський долар",
+    "rate": 1.16242
+  },
+  {
+    "symbol": "TMT",
+    "currencyName": "Туркменський новий манат",
+    "rate": 10.3867
+  },
+  {
+    "symbol": "RSD",
+    "currencyName": "Сербський динар",
+    "rate": 0.33902
+  },
+  {
+    "symbol": "TJS",
+    "currencyName": "Сомоні",
+    "rate": 3.3195
+  },
+  {
+    "symbol": "GEL",
+    "currencyName": "Ларі",
+    "rate": 13.4518
+  },
+  {
+    "symbol": "BRL",
+    "currencyName": "Бразильський реал",
+    "rate": 7.3703
+  },
+  {
+    "symbol": "XAU",
+    "currencyName": "Золото",
+    "rate": 76386.71
+  },
+  {
+    "symbol": "XAG",
+    "currencyName": "Срібло",
+    "rate": 901.23
+  },
+  {
+    "symbol": "XPT",
+    "currencyName": "Платина",
+    "rate": 35866.66
+  },
+  {
+    "symbol": "XPD",
+    "currencyName": "Паладій",
+    "rate": 45073.94
   }
-}
+]
