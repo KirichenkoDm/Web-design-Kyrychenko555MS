@@ -1,9 +1,6 @@
-import data from "../Currency_to_UAH.json" assert {type: 'json'};
-
 let currenciesListElem = document.getElementById("currenciesListContainer");
 
 export const loadCurrenciesToList = () => {
-  let response;
   fetch("/file", {
     method: "GET",
     // headers: { 'Content-Type': 'application/json' },

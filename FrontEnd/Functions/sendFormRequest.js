@@ -31,7 +31,7 @@ export const sendData = () => {
   })
   .catch(e => {
     console.log("Код помилки: " + e);
-    paymentInfoElem.innerHTML = "Перевод не вдався";
+    paymentInfoElem.innerHTML = "Переказ не вдався";
     paymentInfoElem.style.color = "red";
   })
 }
