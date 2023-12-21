@@ -7,167 +7,167 @@
   {
     "symbol": "USD",
     "currencyName": "Долар США",
-    "rate": 37.5516
+    "rate": 37.5964
   },
   {
     "symbol": "GBP",
     "currencyName": "Фунт стерлінгів",
-    "rate": 47.454
+    "rate": 47.5876
   },
   {
     "symbol": "EUR",
     "currencyName": "Євро",
-    "rate": 41.0664
+    "rate": 41.2846
   },
   {
     "symbol": "MXN",
     "currencyName": "Мексиканське песо",
-    "rate": 2.199
+    "rate": 2.2031
   },
   {
     "symbol": "ILS",
     "currencyName": "Новий ізраїльський шекель",
-    "rate": 10.2864
+    "rate": 10.3995
   },
   {
     "symbol": "CNY",
     "currencyName": "Юань Женьміньбі",
-    "rate": 5.2607
+    "rate": 5.2647
   },
   {
     "symbol": "TRY",
     "currencyName": "Турецька ліра",
-    "rate": 1.289
+    "rate": 1.2894
   },
   {
     "symbol": "CZK",
     "currencyName": "Чеська крона",
-    "rate": 1.6735
+    "rate": 1.6864
   },
   {
     "symbol": "AUD",
     "currencyName": "Австралійський долар",
-    "rate": 25.3849
+    "rate": 25.4114
   },
   {
     "symbol": "CAD",
     "currencyName": "Канадський долар",
-    "rate": 28.1349
+    "rate": 28.1579
   },
   {
     "symbol": "DKK",
     "currencyName": "Данська крона",
-    "rate": 5.5073
+    "rate": 5.5367
   },
   {
     "symbol": "HKD",
     "currencyName": "Гонконгівський долар",
-    "rate": 4.8101
+    "rate": 4.8137
   },
   {
     "symbol": "HUF",
     "currencyName": "Форинт",
-    "rate": 0.106526
+    "rate": 0.107943
   },
   {
     "symbol": "INR",
     "currencyName": "Індійська рупія",
-    "rate": 0.45147
+    "rate": 0.45146
   },
   {
     "symbol": "IDR",
     "currencyName": "Рупія",
-    "rate": 0.0024196
+    "rate": 0.0024209
   },
   {
     "symbol": "JPY",
     "currencyName": "Єна",
-    "rate": 0.26158
+    "rate": 0.26334
   },
   {
     "symbol": "KZT",
     "currencyName": "Теньге",
-    "rate": 0.082415
+    "rate": 0.081863
   },
   {
     "symbol": "KRW",
     "currencyName": "Вона",
-    "rate": 0.0289
+    "rate": 0.028811
   },
   {
     "symbol": "MDL",
     "currencyName": "Молдовський лей",
-    "rate": 2.1418
+    "rate": 2.1451
   },
   {
     "symbol": "NZD",
     "currencyName": "Новозеландський долар",
-    "rate": 23.5937
+    "rate": 23.5429
   },
   {
     "symbol": "NOK",
     "currencyName": "Норвезька крона",
-    "rate": 3.6421
+    "rate": 3.6494
   },
   {
     "symbol": "RUB",
     "currencyName": "Російський рубль",
-    "rate": 0.41281
+    "rate": 0.40723
   },
   {
     "symbol": "SGD",
     "currencyName": "Сінгапурський долар",
-    "rate": 28.2173
+    "rate": 28.285
   },
   {
     "symbol": "ZAR",
     "currencyName": "Ренд",
-    "rate": 2.0445
+    "rate": 2.0499
   },
   {
     "symbol": "SEK",
     "currencyName": "Шведська крона",
-    "rate": 3.6914
+    "rate": 3.7183
   },
   {
     "symbol": "CHF",
     "currencyName": "Швейцарський франк",
-    "rate": 43.4148
+    "rate": 43.7778
   },
   {
     "symbol": "EGP",
     "currencyName": "Єгипетський фунт",
-    "rate": 1.2153
+    "rate": 1.2169
   },
   {
     "symbol": "BYN",
     "currencyName": "Білоруський рубль",
-    "rate": 13.6492
+    "rate": 13.6655
   },
   {
     "symbol": "AZN",
     "currencyName": "Азербайджанський манат",
-    "rate": 22.1022
+    "rate": 22.1285
   },
   {
     "symbol": "RON",
     "currencyName": "Румунський лей",
-    "rate": 8.2636
+    "rate": 8.3069
   },
   {
     "symbol": "XDR",
     "currencyName": "СПЗ (спеціальні права запозичення)",
-    "rate": 50.1994
+    "rate": 50.3457
   },
   {
     "symbol": "BGN",
     "currencyName": "Болгарський лев",
-    "rate": 21.0008
+    "rate": 21.1062
   },
   {
     "symbol": "PLN",
     "currencyName": "Злотий",
-    "rate": 9.4546
+    "rate": 9.5111
   },
   {
     "symbol": "DZD",
@@ -292,21 +292,21 @@
   {
     "symbol": "XAU",
     "currencyName": "Золото",
-    "rate": 76386.71
+    "rate": 76624.85
   },
   {
     "symbol": "XAG",
     "currencyName": "Срібло",
-    "rate": 901.23
+    "rate": 911.24
   },
   {
     "symbol": "XPT",
     "currencyName": "Платина",
-    "rate": 35866.66
+    "rate": 36418.88
   },
   {
     "symbol": "XPD",
     "currencyName": "Паладій",
-    "rate": 45073.94
+    "rate": 45549.92
   }
 ]

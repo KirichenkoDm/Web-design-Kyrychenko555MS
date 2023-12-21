@@ -6,7 +6,6 @@ let recipientElem = document.getElementById("recipient");
 export const focusoutSum = (e) => {
   //validation
   let errElem = document.getElementById("sumError");
-  console.log(errElem);
   if(e.target.value > 0 && e.target.value < 5001) {
     //dom update
     resultSumUpdate();

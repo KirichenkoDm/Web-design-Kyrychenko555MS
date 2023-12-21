@@ -36,8 +36,9 @@
           <input id="submit" type="submit">
           <label for="submit">Зауважте, що сервіс утримує комісію в 5%</label>
         </form>
-        <div class="Container2">
-          <label for="recipient">Отримувач:</p>
+        <div class="Container">
+          <label id = "paymentInfo">Інформація про переказ:</label>
+          <label for="recipient">Отримувач:</label>
           <p id = "recipient">Відсутній</p>
           <label for="resultSum">Буде Перераховано:</p>
           <p id = "resultSum">-</p>
@@ -45,9 +46,7 @@
           <p id = "commission">-</p>
         </div>
       </div>      
-      <ul id="currenciesList" class="currenciesList">
-        <label for="currenciesList"><h2>Курси валют:</h2></label>
-      </ul>
+      <aside id="currenciesListContainer"></aside>
     </main>
     <script type="module" src="script.js"></script>
   </body>
